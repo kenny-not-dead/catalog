@@ -1,0 +1,75 @@
+.card{
+background: #FFFFFF;
+box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
+padding: 40px 20px 25px;
+}
+
+p{
+    text-align: left;
+}
+
+.size{
+    font-weight: 400;
+    font-size: 12px;
+    color: #3F4E65;
+}
+
+.name{
+    font-size: 16px;
+    color: #111111;
+    height: 55px;
+}
+
+span{
+    font-weight: 300;
+    font-size: 14px;
+    color: #3F4E65;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.desc p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #111111;
+}
+
+.price{
+    font-weight: 800;
+    font-size: 16px;
+    color: #111111;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 19px;
+    gap: 5px;
+
+    background: #FFC85E;
+    border-radius: 80px;
+    color: white;
+    border: none;
+
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+
+    margin-right: 50px;
+}
+
+.priceWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardimg{
+    display: flex;
+    margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+
+.adresInfo{
+  font-weight: 600;
+  font-size: 14px;
+  color: #111111;
+  padding-left: 10px;
+  margin-right: 40px;
+  
+}
+.span{
+  margin-left: 0;
+}
+
+.adresInfofooter{
+  color: #fff;
+}
+
+.spanfooter{
+  color: #fff;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .adresInfofooter {
+      text-align: center;
+    }
+}

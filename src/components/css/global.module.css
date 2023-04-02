@@ -1,0 +1,20 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.icontype{
+    opacity: 0.5;
+    width: 16px;
+}
+
+.icontypeml{
+    opacity: 0.5;
+    width: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        width: 360px;
+      }
+}

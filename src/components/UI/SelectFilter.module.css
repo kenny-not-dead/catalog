@@ -1,0 +1,28 @@
+.p{
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #111111;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+
+.lifilter{
+  list-style-type: none;
+  margin-top: 5px
+}
+
+.inputcatalog {
+  margin-right: 10px;
+}
+
+.all{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: #3F4E65;
+}

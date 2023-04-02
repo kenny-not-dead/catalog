@@ -1,0 +1,27 @@
+.label{
+    display: inline;
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 16px;
+
+    color: #111111;
+}
+
+.wrapper{
+    margin: auto 0;
+}
+
+.select{
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #3F4E65;
+    width: 94px;
+}
+
+.span{
+    margin-left: -20px;
+}

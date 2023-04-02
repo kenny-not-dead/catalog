@@ -1,0 +1,66 @@
+
+.h2sort{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .content{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+  }
+  
+  .cardwrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.filterforwrapper{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px
+}
+
+.filterforwrapperdown{
+  display: block;
+  margin-top: 40px;
+}
+
+.notfind{
+  margin: 50px auto;
+
+}
+
+.h4{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: start;
+
+  color: #111111;
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    h2{
+      font-weight: 500;
+      font-size: 20px;
+      }
+
+      .filterforwrapper {
+        display: none;
+      }
+      
+    .h2sort, .content{
+      display: block
+    }
+
+    .cardwrapper{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+
+  }

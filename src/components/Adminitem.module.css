@@ -1,0 +1,35 @@
+.number{
+  width: 50px
+}
+
+.code{
+  width: 120px
+}
+
+.text {
+  width: 70px;
+}
+
+.textbig{
+  width: 270px;
+}
+
+.add{
+  margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1300px) {
+.wrapper{
+  padding: 20px 0;
+}
+.wrapper input {
+  display: block;
+}
+
+.wrapper select {
+  display: block;
+}
+
+
+}

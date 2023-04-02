@@ -1,0 +1,18 @@
+.pagelink{
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+   
+    color: #3F4E65;
+
+}
+
+.pageitem{
+    text-decoration: none;
+    display: inline;
+    margin: 10px 5px;
+}
+
+.pagination{
+text-align: center;
+}

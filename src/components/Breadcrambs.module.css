@@ -1,0 +1,9 @@
+.breadcrambs{
+  display: flex;
+  justify-content: start;
+  padding: 45px 0;
+}
+
+.item{
+  padding: 0 15px;
+}

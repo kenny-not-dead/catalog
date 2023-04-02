@@ -1,0 +1,42 @@
+.input{
+    padding: 20px 55px 20px 20px;
+    background: #EDEDED;
+    border-radius: 36px;
+    border: none;
+    margin-right: 35px;
+}
+
+.searchbtn{
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 8px;
+    width: 42px;
+    height: 42px;
+    background: #FFC85E;
+    border: none;
+    border-radius: 1000px;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .mediascreen {
+        display: none;
+      }
+
+      .align{
+        text-align: start;
+      }
+
+      .input{
+        margin-right: 0;
+      }
+
+      .searchbtn{
+        margin-left: -55px;
+      }
+
+
+
+
+      
+}
