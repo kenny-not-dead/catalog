@@ -33,6 +33,7 @@ const addnew = (e:any, formdata:any) => {
 
 const save = (e:any, formdata:any) => {
   e.preventDefault()
+  console.log (formdata)
   const updatedItems = newData.map(item =>
     item.code === formdata.code ? formdata : item
   )
