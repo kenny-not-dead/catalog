@@ -18,7 +18,8 @@ function App() {
 
   const [newData, setNewData] = useState(datas)
 
-  const deleteItem = (el: any) => {
+  const deleteItem = (e:any, el: any) => {
+    e.preventDefault()
     let newArr = newData.filter(i => i.code !== el)
     setNewData(newArr)
 }
@@ -30,9 +31,17 @@ const addnew = (e:any, formdata:any) => {
 }
 
 
+const save = (e:any, formdata:any) => {
+  e.preventDefault()
+  const updatedItems = newData.map(item =>
+    item.code === formdata.code ? formdata : item
+  )
+
+  setNewData(updatedItems)
+}
 
 
-  const [count, setCount] = useState (0)
+const [count, setCount] = useState (0)
 
 
   return (
@@ -43,7 +52,7 @@ const addnew = (e:any, formdata:any) => {
                 <Route path='catalog/:id' element={<Product count={count} setCount = {setCount}/>}/>
                 <Route path='catalog' element={<Catalog newData={newData}  count={count} setCount = {setCount}/>}/>
                 <Route path='cart' element={<Cart newData={newData} count={count} setCount = {setCount}/>}/>
-                <Route path='admin' element={<Admin newData={newData} addnew={addnew} deleteItem={deleteItem}/>}/>
+                <Route path='admin' element={<Admin newData={newData} addnew={addnew} deleteItem={deleteItem} save={save}/>}/>
                 <Route path="*" element={<Navigate to="catalog" replace />} />
             </Routes>      
             <Footer/>
